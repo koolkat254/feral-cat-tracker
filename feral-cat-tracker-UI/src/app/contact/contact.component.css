@@ -1,0 +1,99 @@
+.home{
+    font-family: system-ui;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    }
+p,
+h1{
+    color:#45b678;
+    text-align: center;
+}
+
+body {
+    font-family: system-ui, sans-serifl;
+    
+  }
+
+.contact{
+  color: darkslategrey;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  }
+
+  form {
+    width: 30em;
+    max-width: 90%;
+    margin: 0 auto;
+    border: 3px solid #45b678;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 25px;
+  }
+  
+  label {
+    margin-bottom: 0.4rem;
+    display: block;
+  }
+  
+  input,
+textarea,
+.reasonForContact.value {
+  padding: 0.4rem;
+  width: 100%;
+  border: 1px solid;
+}
+ 
+.btn {
+  background-color: #45b678;
+  border: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 25%;
+    
+  }
+
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 34px;
+}
+  
+
+.successMessage{
+  margin-top: 10px;
+  background-color: #45b678;
+  padding: 10px 20px;
+  color:#fff;
+  border-radius: 5px;
+  text-align: center;
+
+}
+
+.showSubmitErrorMessage{
+  color:red
+}
+
+
+img{
+  border: #45b678;
+  align-items: center;
+  margin:auto;
+  justify-content: center;
+  display: flex;
+}
+
+/* .field{
+    font-size: 100%;
+} */
